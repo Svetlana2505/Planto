@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Planto</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="./css/main.css" />
+
+		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.ico" />
+	</head>
+
+	<body>
+		<div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+
+		<div class="mobile-nav" id="mobileNav">
+			<button class="mobile-nav__btn" id="modalClose">
+				<img src="./img/icons/close.svg" alt="close" />
+			</button>
+			<ul class="mobile-nav__list">
+				<li><a href="#" class="active">Home</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Projects</a></li>
+				<li><a href="#">Contacts</a></li>
+			</ul>
+		</div>
+
+		<header class="header">
+			<div class="container">
+				<div class="header-nav">
+					<div class="nav">
+						<div class="nav__logo">
+							<img src="./img/Logo.svg" alt="" />
+							<p>Planto.</p>
+						</div>
+						<ul class="nav__menu">
+							<li>
+								<a href="#">Home</a>
+							</li>
+							<li>
+								<a href="#">More</a>
+							</li>
+							<li>
+								<a href="#">Contact</a>
+							</li>
+						</ul>
+						<div class="nav__search">
+							<div class="search">
+								<div class="input">
+									<input type="search" results="5" name="s" />
+								</div>
+
+								<div class="search-img">
+									<img src="./img/search.svg" alt="search" width="26" />
+								</div>
+							</div>
+							<div class="bag">
+								<img src="./img/bag.svg" alt="search" width="26" />
+							</div>
+
+							<div class="nav-btn">
+								<button id="modalOpen">
+									<svg class="icon icon--nav-btn">
+										<use href="./img/svgsprite/sprite.symbol.svg#nav-btn"></use>
+									</svg>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header-top">
+					<div class="top">
+						<div class="top-box">
+							<div class="top-text">
+								<h1>Breath Natureal</h1>
+								<p class="top-text__text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do&#160;eiusmod tempor incididunt ut&#160;labore et&#160;dolore magna aliqua.
+								</p>
+								<button class="button">Explore</button>
+							</div>
+							<div class="top-review">
+								<blockquote>
+									<cite class="review-name">Alina Patel</cite>
+									<p class="review-text">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt&#8230;
+									</p>
+								</blockquote>
+							</div>
+						</div>
+
+						<div class="swiper">
+							<div class="swiper-arrow">
+								<button id="swiper-arrow__left">
+									<img src="./img/left-arrow.svg" alt="" />
+								</button>
+								<button id="swiper-arrow__right">
+									<img src="./img/right-arrow.svg" alt="" />
+								</button>
+							</div>
+							<div class="swiper-pagination"></div>
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="slide-text__img">
+										<picture>
+											<source srcset="./img/img-01-swiper.webp 1x, ./img/img-01-swiper@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/img-01-swiper.png 1x, ./img/img-01-swiper@2x.png 2x" type="image/png" />
+											<img src="./img/img-01-swiper.png" alt="img" />
+										</picture>
+									</div>
+									<div class="slide-text">
+										<p>Trendy House Plant</p>
+										<h3>Calathea plant</h3>
+										<a href="#" class="button">Buy Now</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="slide-text__img">
+										<picture>
+											<source srcset="./img/img-02-swiper.webp 1x, ./img/img-02-swiper@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/img-02-swiper.png 1x, ./img/img-02-swiper@2x.png 2x" type="image/png" />
+											<img src="./img/img-02-swiper.png" alt="img" />
+										</picture>
+									</div>
+									<div class="slide-text">
+										<p>Trendy House Plant</p>
+										<h3>Calathea plant</h3>
+										<a href="#" class="button">Buy Now</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="slide-text__img">
+										<picture>
+											<source srcset="./img/img-03-swiper.webp 1x, ./img/img-03-swiper@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/img-03-swiper.png 1x, ./img/img-03-swiper@2x.png 2x" type="image/png" />
+											<img src="./img/img-03-swiper.png" alt="img" />
+										</picture>
+									</div>
+									<div class="slide-text">
+										<p>Trendy House Plant</p>
+										<h3>Calathea plant</h3>
+										<a href="#" class="button">Buy Now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="trendy-plants">
+					<div class="trendy">
+						<div class="title trendy-title">Our Trendy plants</div>
+
+						<div class="trendy-cart">
+							<div class="trendy-cart__top">
+								<div class="trendy-cart__top-img">
+									<picture>
+										<source srcset="./img/img-04-swiper.webp 1x, ./img/img-04-swiper@2x.webp 2x" type="image/webp" />
+										<source srcset="./img/img-04-swiper.png 1x, ./img/img-04-swiper@2x.png 2x" type="image/png" />
+										<img src="./img/img-04-swiper.png" alt="" />
+									</picture>
+								</div>
+								<div class="trendy-cart__top-text">
+									<h3>For Small Decs Ai&#160;Plat</h3>
+									<p class="text">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut&#160;labore et&#160;dolore magna aliqua
+									</p>
+									<p class="price">Rs. 599/-</p>
+									<div class="button-box">
+										<a class="button" href="#">Explore</a>
+										<button class="button-card">
+											<img src="./img/bag.svg" alt="" />
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="trendy-cart__top trendy-cart__bottom">
+								<div class="trendy-cart__top-img">
+									<picture>
+										<source srcset="./img/img-03-swiper.webp 1x, ./img/img-03-swiper@2x.webp 2x" type="image/webp" />
+										<source srcset="./img/img-03-swiper.png 1x, ./img/img-03-swiper@2x.png 2x" type="image/png" />
+										<img src="./img/img-03-swiper.png" alt="" />
+									</picture>
+								</div>
+								<div class="trendy-cart__top-text">
+									<h3>For Small Decs Ai&#160;Plat</h3>
+									<p class="text">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut&#160;labore et&#160;dolore magna aliqua
+									</p>
+									<p class="price">Rs. 599/-</p>
+									<div class="button-box">
+										<a class="button" href="#"> Explore </a>
+										<button class="button-card">
+											<img src="./img/bag.svg" alt="" />
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="container">
+				<section>
+					<div class="top-selling">
+						<div class="title">Our Top Selling</div>
+					</div>
+				</section>
+				<section>
+					<div class="best-plants">
+						<div class="title">Our Best o2</div>
+					</div>
+				</section>
+				<section>
+					<div class="customer-review">
+						<div class="title">Customer Review</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer">footer</footer>
+
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>

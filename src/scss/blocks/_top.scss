@@ -1,0 +1,50 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.top-box {
+  width: 892px;
+  display: flex;
+  flex-direction: column;
+  gap: 217px;
+  padding-top: 110px;
+}
+
+.top-text {
+  h1 {
+    font-weight: 600;
+    font-size: 6.5vw;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 20px;
+  }
+
+  .top-text__text {
+    font-weight: 500;
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 20px;
+  }
+}
+
+.top-review {
+  border-radius: 42px;
+  padding: 45px 47px 44px 34px;
+  backdrop-filter: blur(16.100000381469727px);
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 17px;
+
+  max-width: 410px;
+
+  .review-name {
+    font-weight: 500;
+    font-size: 24px;
+  }
+}
+
+.review-text {
+  margin-top: 33px;
+}

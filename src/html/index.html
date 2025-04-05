@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planto</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.ico" />
+  </head>
+
+  <body>
+    @@include("blocks/mobile-nav.html")
+    <header class="header">
+      <div class="container">
+        <div class="header-nav">@@include("blocks/nav.html")</div>
+        <div class="header-top">@@include("blocks/top.html")</div>
+        <div class="trendy-plants">@@include("blocks/trendy.html")</div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section>
+          @@include('blocks/main/top-selling.html')
+        </section>
+        <section>
+          @@include('blocks/main/best-plants.html')
+        </section>
+        <section>
+          @@include('blocks/main/customer-review.html')
+        </section>
+      </div>
+    </main>
+    @@include('blocks/footer.html')
+
+    <script src="./js/index.bundle.js"></script>
+  </body>
+</html>
